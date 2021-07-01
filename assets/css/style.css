@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
 body {
+    margin: 0;
     font-family: Roboto, sans-serif;
     text-align: center;
     color: #CDD4DE;
     background: center/cover url(../img/fog.jpg) no-repeat;
-    margin: 0;
     height: 100vh;
 }
 
@@ -14,13 +15,36 @@ header {
     color: #565c73;
 }
 
-figure h1 {
+section h1 {
     margin: 0;
     font-size: 10em;
-    padding-top: 12%;
+    padding-top: 13%;
 }
 
-figure h2 {
+section h2 {
     margin: 0;
-    font-size: 2.5em;
+    padding-top: 3%;
+    font-size: 2.3em;
+}
+
+section p {
+    font-size: .9em;
+    padding-bottom: 7%;
+}
+
+a:link, a:visited {
+    color: #565c73;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #565c73;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+a:hover {
+    background: #CDD4DE11;
+}
+
+a:active {
+    background: #CDD4DE11;
 }
