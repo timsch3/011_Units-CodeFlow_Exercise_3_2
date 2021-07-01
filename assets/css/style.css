@@ -39,7 +39,7 @@ a:link, a:visited {
     text-transform: uppercase;
     border: 2px solid #565c73;
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 15px;
 }
 
 a:hover {
