@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+body {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    color: #CDD4DE;
+    background: center/cover url(../img/fog.jpg) no-repeat;
+    margin: 0;
+    height: 100vh;
+}
+
+header {
+    text-transform: uppercase;
+    font-style: italic;
+    color: #565c73;
+}
+
+figure h1 {
+    margin: 0;
+    font-size: 10em;
+    padding-top: 12%;
+}
+
+figure h2 {
+    margin: 0;
+    font-size: 2.5em;
+}
