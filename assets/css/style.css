@@ -13,6 +13,8 @@ body {
 header {
     text-transform: uppercase;
     font-style: italic;
+    font-size: 1.25em;
+    font-weight: 900;
     color: #565c73;
 }
 
